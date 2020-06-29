@@ -1658,5 +1658,23 @@
         margin: 0 auto;
     }
 
+    .new_contact{
+        display: flex;
+        width: 33px;
+        height: 33px;
+        padding: 8px;
+        border-radius: 50%;
+        background: var(--main_color2);
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .new_contact img{
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
 
 }
