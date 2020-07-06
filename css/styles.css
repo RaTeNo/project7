@@ -1498,9 +1498,9 @@ header .menu .sub_menu a
 header .menu .sub_menu a:hover,
 header .menu .sub_menu a.active
 {
-    color: #fff;
+    color: var(--main_color2);
 
-    background: var(--main_color2);
+    background: #fff;
 }
 
 header .menu .sub_menu div:first-child a:hover
@@ -1647,9 +1647,9 @@ header .menu .flexMenu-popup .item > a .icon
 header .menu .flexMenu-popup .item a:hover,
 header .menu .flexMenu-popup .item a.active
 {
-    color: #fff;
+    color: var(--main_color2);
 
-    background: var(--main_color2);
+    background: #fff;
 }
 
 header .menu .flexMenu-popup .sub_menu,
@@ -2314,7 +2314,6 @@ aside > *:last-child
 
 .first_section .info .title span
 {
-    color: var(--main_color2);
 }
 
 
@@ -8698,4 +8697,22 @@ aside .submit .reset i:after
 }
 .poll .desc table{
     width: 100% !important;
+}
+
+
+.poll .desc ul, .poll .desc ol, .text_block ul, .text_block ol{
+    margin: 30px 0 30px 50px;
+}
+
+.poll .desc table, .text_block table{
+    margin:20px 0;
+}
+
+
+.poll .desc table td, .text_block table td{
+    padding: 20px;
+}
+
+.product_info .description{
+    overflow: auto;
 }
