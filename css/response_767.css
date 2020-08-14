@@ -1499,6 +1499,10 @@
     {
         display: none;
     }
+
+     .products_category .flex>*{
+        width: calc(50% - 23px);
+    }
 }
 
 
